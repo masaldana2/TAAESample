@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TAAESample" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BackgroundiPad" translatesAutoresizingMaskIntoConstraints="NO" id="mBb-Zx-ZOk">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                            </imageView>
+                            <view opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="frs-xo-pdz" userLabel="Pad2" customClass="PadMedium" customModule="TAAESample" customModuleProvider="target">
+                                <rect key="frame" x="186" y="845" width="147" height="153"/>
+                            </view>
+                            <view opaque="NO" tag="8" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TyY-Ou-1UT" userLabel="Pad8" customClass="PadMedium" customModule="TAAESample" customModuleProvider="target">
+                                <rect key="frame" x="186" y="505" width="147" height="153"/>
+                            </view>
+                            <view opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="65n-BF-2XE" userLabel="Pad5" customClass="PadMedium" customModule="TAAESample" customModuleProvider="target">
+                                <rect key="frame" x="186" y="675" width="147" height="153"/>
+                            </view>
+                            <view opaque="NO" tag="10" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="REi-on-X1r" userLabel="Pad10" customClass="PadMedium" customModule="TAAESample" customModuleProvider="target">
+                                <rect key="frame" x="20" y="333" width="147" height="153"/>
+                            </view>
+                            <view opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wie-wY-ai5" userLabel="Pad1" customClass="PadMedium" customModule="TAAESample" customModuleProvider="target">
+                                <rect key="frame" x="20" y="845" width="147" height="153"/>
+                            </view>
+                            <view opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mtp-uy-mmj" userLabel="Pad7" customClass="PadMedium" customModule="TAAESample" customModuleProvider="target">
+                                <rect key="frame" x="20" y="505" width="147" height="153"/>
+                            </view>
+                            <view opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NWN-Vn-zy7" userLabel="Pad4" customClass="PadMedium" customModule="TAAESample" customModuleProvider="target">
+                                <rect key="frame" x="20" y="675" width="147" height="153"/>
+                            </view>
+                            <view opaque="NO" tag="12" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Io3-E5-Dnl" userLabel="Pad12" customClass="PadMedium" customModule="TAAESample" customModuleProvider="target">
+                                <rect key="frame" x="352" y="333" width="147" height="153"/>
+                            </view>
+                            <view opaque="NO" tag="11" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fbo-Po-CeM" userLabel="Pad11" customClass="PadMedium" customModule="TAAESample" customModuleProvider="target">
+                                <rect key="frame" x="186" y="333" width="147" height="153"/>
+                            </view>
+                            <view opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IIZ-c4-gFV" userLabel="Pad6" customClass="PadMedium" customModule="TAAESample" customModuleProvider="target">
+                                <rect key="frame" x="352" y="675" width="147" height="153"/>
+                            </view>
+                            <view opaque="NO" tag="9" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZjO-52-Fy5" userLabel="Pad9" customClass="PadMedium" customModule="TAAESample" customModuleProvider="target">
+                                <rect key="frame" x="352" y="505" width="147" height="153"/>
+                            </view>
+                            <view opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TPy-36-DUW" userLabel="Pad3" customClass="PadMedium" customModule="TAAESample" customModuleProvider="target">
+                                <rect key="frame" x="352" y="845" width="147" height="153"/>
+                            </view>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="5Ie-QB-69U">
+                                <rect key="frame" x="222" y="10" width="325" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="321" id="O9S-t5-qh1"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="bandpassSlider:" destination="BYZ-38-t0r" eventType="valueChanged" id="lJw-4d-SpB"/>
+                                </connections>
+                            </slider>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RWK-Sx-doe">
+                                <rect key="frame" x="699" y="8" width="49" height="30"/>
+                                <color key="backgroundColor" red="0.93137341737747192" green="0.28920140862464905" blue="0.16250741481781006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.9959825873374939" green="0.99621325731277466" blue="0.99187678098678589" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Record"/>
+                                <connections>
+                                    <action selector="toggleRecording:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7Jc-18-wHT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sLd-ar-sPd">
+                                <rect key="frame" x="582" y="8" width="85" height="30"/>
+                                <color key="backgroundColor" red="0.069849379360675812" green="1" blue="0.0050151762552559376" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.90580929489999995" green="0.2470118167" blue="0.28197766759999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Play "/>
+                                <state key="selected" title="Playing">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="playTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="44b-3j-nzF"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mDb-Mm-PXU">
+                                <rect key="frame" x="183" y="304" width="647" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bqD-0F-P3F" customClass="seqBttn" customModule="TAAESample" customModuleProvider="target">
+                                <rect key="frame" x="29" y="71" width="80" height="74"/>
+                            </view>
+                            <view opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fry-Sd-ETe" customClass="seqBttn" customModule="TAAESample" customModuleProvider="target">
+                                <rect key="frame" x="119" y="71" width="80" height="74"/>
+                            </view>
+                            <view opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hnl-uS-6eG" customClass="seqBttn" customModule="TAAESample" customModuleProvider="target">
+                                <rect key="frame" x="209" y="71" width="80" height="74"/>
+                            </view>
+                            <view opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lvo-4M-utn" customClass="seqBttn" customModule="TAAESample" customModuleProvider="target">
+                                <rect key="frame" x="299" y="71" width="80" height="74"/>
+                            </view>
+                            <view opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XxQ-fq-TEA" customClass="seqBttn" customModule="TAAESample" customModuleProvider="target">
+                                <rect key="frame" x="389" y="71" width="80" height="74"/>
+                            </view>
+                            <view opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IIR-0b-OpB" customClass="seqBttn" customModule="TAAESample" customModuleProvider="target">
+                                <rect key="frame" x="479" y="71" width="80" height="74"/>
+                            </view>
+                            <view opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ebu-Xh-cvj" customClass="seqBttn" customModule="TAAESample" customModuleProvider="target">
+                                <rect key="frame" x="569" y="71" width="80" height="74"/>
+                            </view>
+                            <view opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0qU-FD-xTt" customClass="seqBttn" customModule="TAAESample" customModuleProvider="target">
+                                <rect key="frame" x="659" y="71" width="80" height="74"/>
+                            </view>
+                            <view opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vyh-4Q-L1P" customClass="seqBttn" customModule="TAAESample" customModuleProvider="target">
+                                <rect key="frame" x="29" y="159" width="80" height="74"/>
+                            </view>
+                            <view opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PdM-Yj-gcV" customClass="seqBttn" customModule="TAAESample" customModuleProvider="target">
+                                <rect key="frame" x="119" y="159" width="80" height="74"/>
+                            </view>
+                            <view opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kic-w5-OXP" customClass="seqBttn" customModule="TAAESample" customModuleProvider="target">
+                                <rect key="frame" x="209" y="159" width="80" height="74"/>
+                            </view>
+                            <view opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sZX-nd-9zn" customClass="seqBttn" customModule="TAAESample" customModuleProvider="target">
+                                <rect key="frame" x="299" y="159" width="80" height="74"/>
+                            </view>
+                            <view opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dC7-9z-ppN" customClass="seqBttn" customModule="TAAESample" customModuleProvider="target">
+                                <rect key="frame" x="389" y="159" width="80" height="74"/>
+                            </view>
+                            <view opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="977-D2-bd0" customClass="seqBttn" customModule="TAAESample" customModuleProvider="target">
+                                <rect key="frame" x="479" y="159" width="80" height="74"/>
+                            </view>
+                            <view opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="h3k-RB-Y0Z" customClass="seqBttn" customModule="TAAESample" customModuleProvider="target">
+                                <rect key="frame" x="569" y="159" width="80" height="74"/>
+                            </view>
+                            <view opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="c8v-gl-VVP" customClass="seqBttn" customModule="TAAESample" customModuleProvider="target">
+                                <rect key="frame" x="659" y="159" width="80" height="74"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="5Ie-QB-69U" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2GB-om-ebL"/>
+                            <constraint firstItem="5Ie-QB-69U" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="QUC-MU-HpU"/>
+                        </constraints>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="pad1" destination="wie-wY-ai5" id="wuY-kT-Mjc"/>
+                        <outlet property="pad10" destination="REi-on-X1r" id="gZ4-eW-CND"/>
+                        <outlet property="pad11" destination="Fbo-Po-CeM" id="9id-DS-UTj"/>
+                        <outlet property="pad12" destination="Io3-E5-Dnl" id="OBV-wk-pag"/>
+                        <outlet property="pad2" destination="frs-xo-pdz" id="DKc-rJ-Njg"/>
+                        <outlet property="pad3" destination="TPy-36-DUW" id="CS6-Gy-DMh"/>
+                        <outlet property="pad4" destination="NWN-Vn-zy7" id="sIB-hh-QfA"/>
+                        <outlet property="pad5" destination="65n-BF-2XE" id="X1m-Ac-GUl"/>
+                        <outlet property="pad6" destination="IIZ-c4-gFV" id="IG1-Sg-qGT"/>
+                        <outlet property="pad7" destination="mtp-uy-mmj" id="uxp-7s-74J"/>
+                        <outlet property="pad8" destination="TyY-Ou-1UT" id="vA8-G3-sJH"/>
+                        <outlet property="pad9" destination="ZjO-52-Fy5" id="U7C-6f-WAw"/>
+                        <outlet property="playButton" destination="sLd-ar-sPd" id="ZAP-aO-Cwc"/>
+                        <outlet property="value" destination="mDb-Mm-PXU" id="C7g-Fw-FCb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="3tN-dw-f9O">
+                    <connections>
+                        <action selector="loopTapped:" destination="BYZ-38-t0r" id="H4d-u3-3Wk"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="Arn-FQ-vbf">
+                    <connections>
+                        <action selector="loopTapped:" destination="BYZ-38-t0r" id="CCT-Rw-XnR"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="OM0-oV-TBV">
+                    <connections>
+                        <action selector="loopTapped:" destination="BYZ-38-t0r" id="Idc-Zo-CGR"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="368" y="488"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="BackgroundiPad" width="768" height="1024"/>
+    </resources>
+</document>
