@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
+
+
 @interface sequencerController : NSObject
 +(void)aMethod:(id)param;
 

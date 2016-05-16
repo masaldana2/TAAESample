@@ -8,6 +8,7 @@
 
 #import "sequencerController.h"
 #import <Foundation/Foundation.h>
+#import "TAAESample-Swift.h"//include SWift classes
 @implementation sequencerController
 
 #define STEPS_PER_BAR 16
@@ -20,6 +21,36 @@
     float nextStepStartTime = 0;
     while(isRunning)
     {
+        
+        sequencerButton *swiftObj = [[sequencerButton alloc] init];
+        ViewController *swiftObj2 = [[ViewController alloc] init];
+        
+       
+        //[swiftObj2 startAnimation];
+        //[swiftObj setPercentagesWithTouchPoint];
+        
+//        if(swiftObj.selected == false){
+//            swiftObj.selected = true;
+//            [swiftObj setPercentagesWithTouchPoint];
+//            
+//        }else{
+//            swiftObj.selected = false;
+//            [swiftObj setPercentagesWithTouchPoint];
+//            
+//        }
+//        [swiftObj performSelectorOnMainThread:@selector(setPercentagesWithTouchPoint) withObject:nil waitUntilDone:NO];
+//       
+//
+//        if(swiftObj.active == false){
+//            swiftObj.active = true;
+//            [swiftObj refresh];
+//            [swiftObj setNeedsDisplay];
+//        }else{
+//            swiftObj.active = false;
+//            [swiftObj refresh];
+//            [swiftObj setNeedsDisplay];
+//            
+//        }
         
         // prepare for step
         currentStep++;

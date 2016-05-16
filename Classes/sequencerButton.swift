@@ -8,33 +8,56 @@
 
 import UIKit
 
+@IBDesignable
+public class sequencerButton: UIView {
 
-class seqBttn: seqButton {
     var active = false
     var selected = false
-    override func drawRect(rect: CGRect) {
+    
+    var test = ViewController()
+    
+    override public func drawRect(rect: CGRect) {
         PadsStyleKit.drawSeqbutton(on: active, selected: selected)
+        
+        
     }
     
-    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
+     func refresh2() {
+        
+        print("refresh")
+        selected = true
+        self.setNeedsDisplay()
+    }
+    
+    override public func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
         if(active == false){
             active = true
         }else{
             active = false
         }
+        //setPercentagesWithTouchPoint()
         self.setNeedsDisplay()
         
     }
     
-    override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?) {
+    override public func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?) {
         
         
         self.setNeedsDisplay()
     }
     
-}
-
-
-class seqButton:UIView{
+     func setPercentagesWithTouchPoint() {
+        print("refresh2")
+        //test.seq1.selected = true
+        //test.seq1.setNeedsDisplay()
+        test.startAnimation()
+        //self.setNeedsDisplay()
+    }
     
+   
 }
+
+
+    
+
+

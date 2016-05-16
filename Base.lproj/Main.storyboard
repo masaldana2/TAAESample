@@ -92,52 +92,52 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bqD-0F-P3F" customClass="seqBttn" customModule="TAAESample" customModuleProvider="target">
+                            <view opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bqD-0F-P3F" customClass="sequencerButton" customModule="TAAESample" customModuleProvider="target">
                                 <rect key="frame" x="29" y="71" width="80" height="74"/>
                             </view>
-                            <view opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fry-Sd-ETe" customClass="seqBttn" customModule="TAAESample" customModuleProvider="target">
+                            <view opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fry-Sd-ETe" customClass="sequencerButton" customModule="TAAESample" customModuleProvider="target">
                                 <rect key="frame" x="119" y="71" width="80" height="74"/>
                             </view>
-                            <view opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hnl-uS-6eG" customClass="seqBttn" customModule="TAAESample" customModuleProvider="target">
+                            <view opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hnl-uS-6eG" customClass="sequencerButton" customModule="TAAESample" customModuleProvider="target">
                                 <rect key="frame" x="209" y="71" width="80" height="74"/>
                             </view>
-                            <view opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lvo-4M-utn" customClass="seqBttn" customModule="TAAESample" customModuleProvider="target">
+                            <view opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lvo-4M-utn" customClass="sequencerButton" customModule="TAAESample" customModuleProvider="target">
                                 <rect key="frame" x="299" y="71" width="80" height="74"/>
                             </view>
-                            <view opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XxQ-fq-TEA" customClass="seqBttn" customModule="TAAESample" customModuleProvider="target">
+                            <view opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XxQ-fq-TEA" customClass="sequencerButton" customModule="TAAESample" customModuleProvider="target">
                                 <rect key="frame" x="389" y="71" width="80" height="74"/>
                             </view>
-                            <view opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IIR-0b-OpB" customClass="seqBttn" customModule="TAAESample" customModuleProvider="target">
+                            <view opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IIR-0b-OpB" customClass="sequencerButton" customModule="TAAESample" customModuleProvider="target">
                                 <rect key="frame" x="479" y="71" width="80" height="74"/>
                             </view>
-                            <view opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ebu-Xh-cvj" customClass="seqBttn" customModule="TAAESample" customModuleProvider="target">
+                            <view opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ebu-Xh-cvj" customClass="sequencerButton" customModule="TAAESample" customModuleProvider="target">
                                 <rect key="frame" x="569" y="71" width="80" height="74"/>
                             </view>
-                            <view opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0qU-FD-xTt" customClass="seqBttn" customModule="TAAESample" customModuleProvider="target">
+                            <view opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0qU-FD-xTt" customClass="sequencerButton" customModule="TAAESample" customModuleProvider="target">
                                 <rect key="frame" x="659" y="71" width="80" height="74"/>
                             </view>
-                            <view opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vyh-4Q-L1P" customClass="seqBttn" customModule="TAAESample" customModuleProvider="target">
+                            <view opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vyh-4Q-L1P" customClass="sequencerButton" customModule="TAAESample" customModuleProvider="target">
                                 <rect key="frame" x="29" y="159" width="80" height="74"/>
                             </view>
-                            <view opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PdM-Yj-gcV" customClass="seqBttn" customModule="TAAESample" customModuleProvider="target">
+                            <view opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PdM-Yj-gcV" customClass="sequencerButton" customModule="TAAESample" customModuleProvider="target">
                                 <rect key="frame" x="119" y="159" width="80" height="74"/>
                             </view>
-                            <view opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kic-w5-OXP" customClass="seqBttn" customModule="TAAESample" customModuleProvider="target">
+                            <view opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kic-w5-OXP" customClass="sequencerButton" customModule="TAAESample" customModuleProvider="target">
                                 <rect key="frame" x="209" y="159" width="80" height="74"/>
                             </view>
-                            <view opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sZX-nd-9zn" customClass="seqBttn" customModule="TAAESample" customModuleProvider="target">
+                            <view opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sZX-nd-9zn" customClass="sequencerButton" customModule="TAAESample" customModuleProvider="target">
                                 <rect key="frame" x="299" y="159" width="80" height="74"/>
                             </view>
-                            <view opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dC7-9z-ppN" customClass="seqBttn" customModule="TAAESample" customModuleProvider="target">
+                            <view opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dC7-9z-ppN" customClass="sequencerButton" customModule="TAAESample" customModuleProvider="target">
                                 <rect key="frame" x="389" y="159" width="80" height="74"/>
                             </view>
-                            <view opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="977-D2-bd0" customClass="seqBttn" customModule="TAAESample" customModuleProvider="target">
+                            <view opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="977-D2-bd0" customClass="sequencerButton" customModule="TAAESample" customModuleProvider="target">
                                 <rect key="frame" x="479" y="159" width="80" height="74"/>
                             </view>
-                            <view opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="h3k-RB-Y0Z" customClass="seqBttn" customModule="TAAESample" customModuleProvider="target">
+                            <view opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="h3k-RB-Y0Z" customClass="sequencerButton" customModule="TAAESample" customModuleProvider="target">
                                 <rect key="frame" x="569" y="159" width="80" height="74"/>
                             </view>
-                            <view opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="c8v-gl-VVP" customClass="seqBttn" customModule="TAAESample" customModuleProvider="target">
+                            <view opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="c8v-gl-VVP" customClass="sequencerButton" customModule="TAAESample" customModuleProvider="target">
                                 <rect key="frame" x="659" y="159" width="80" height="74"/>
                             </view>
                         </subviews>
@@ -164,6 +164,7 @@
                         <outlet property="pad8" destination="TyY-Ou-1UT" id="vA8-G3-sJH"/>
                         <outlet property="pad9" destination="ZjO-52-Fy5" id="U7C-6f-WAw"/>
                         <outlet property="playButton" destination="sLd-ar-sPd" id="ZAP-aO-Cwc"/>
+                        <outlet property="seq1" destination="bqD-0F-P3F" id="BD7-az-fjz"/>
                         <outlet property="value" destination="mDb-Mm-PXU" id="C7g-Fw-FCb"/>
                     </connections>
                 </viewController>

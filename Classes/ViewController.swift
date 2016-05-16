@@ -28,7 +28,6 @@ enum ControlTag: Int {
 }
 class ViewController: UIViewController {
         var audio: AEAudioController?
-    
     @IBOutlet var pad12: PadMedium!
     @IBOutlet var pad11: PadMedium!
     @IBOutlet var pad10: PadMedium!
@@ -42,6 +41,8 @@ class ViewController: UIViewController {
     @IBOutlet var pad2: PadMedium!
     @IBOutlet var pad1: PadMedium!
     
+    @IBOutlet var seq1: sequencerButton!
+    
     @IBOutlet var playButton: UIButton!
     @IBOutlet var value: UILabel!
     //HIDE STATUS BAR
@@ -54,6 +55,12 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         // Set Delegates
         setDelegates()
+        //startAnimation()
+        
+        dispatch_async(dispatch_get_main_queue()) {
+            self.startAnimation()
+        }
+        
     }
     
     override func didReceiveMemoryWarning() {
@@ -97,7 +104,12 @@ class ViewController: UIViewController {
         
     }
     
-    
+    func startAnimation() {
+        seq1.selected = true
+        seq1.setNeedsDisplay()
+        
+        
+    }
     
 
 }
